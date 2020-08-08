@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <h1>Campeões que já peguei bau</h1>
+    <h1>Campeões que já peguei baú</h1>
     <div class="list">
       <div v-for="champion in champions" :key="champion.id">
         <div class="list__card">
@@ -28,6 +28,7 @@ export default {
       .get('http://ddragon.leagueoflegends.com/cdn/10.16.1/data/en_US/champion.json')
       .then((response) => {
         this.champions = response.data.data;
+        localStorage.champions = this.champions;
       });
   },
 };
