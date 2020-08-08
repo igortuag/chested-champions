@@ -8,11 +8,15 @@
   </div>
 </template>
 
+<script>
+export default {};
+</script>
+
 <style lang="scss">
 /*
 * Base
 */
-@import "@/assets/sass/base/_fonts.scss";
+@import '@/assets/sass/base/_fonts.scss';
 
 #app {
   font-family: Roboto, sans-serif;
