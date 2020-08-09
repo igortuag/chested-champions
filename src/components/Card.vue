@@ -1,11 +1,13 @@
 <template>
-  <div class="card" v-on:click="pegou()">
+  <div class="card" v-on:click="pegou()" :class="{ 'card__image--gray': isChest }">
     <div class="card__name">
       <p class="card__name__text">{{ name }}</p>
       <div v-if="isChest" class="card__isChested"></div>
       <div v-if="!isChest" class="card__chested"></div>
     </div>
-    <img class="card__image" :src="imageMontada" :alt="name" />
+    <div>
+      <img class="card__image" :src="imageMontada" :alt="name" />
+    </div>
   </div>
 </template>
 
@@ -80,6 +82,10 @@ export default {
   &__image {
     width: 100%;
     transition: 0.5s;
+  }
+
+  &__image--gray {
+    filter: grayscale(1);
   }
 
   &__isChested {
