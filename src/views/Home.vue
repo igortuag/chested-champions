@@ -4,7 +4,7 @@
     <div class="list">
       <div v-for="champion in champions" :key="champion.id">
         <div class="list__card">
-          <Card :name="champion.name" :id="champion.id" />
+          <Card :id="champion.id" />
         </div>
       </div>
     </div>
@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import axios from 'axios';
+import api from '@/api/api';
 import Card from '@/components/Card.vue';
 
 export default {
@@ -24,12 +24,9 @@ export default {
     };
   },
   mounted() {
-    axios
-      .get('http://ddragon.leagueoflegends.com/cdn/10.16.1/data/en_US/champion.json')
-      .then((response) => {
-        this.champions = response.data.data;
-        localStorage.champions = this.champions;
-      });
+    api.getChampions().then((response) => {
+      this.champions = response.data;
+    });
   },
 };
 </script>

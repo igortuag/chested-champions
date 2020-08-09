@@ -1,12 +1,12 @@
 <template>
   <div class="card" v-on:click="pegou()" :class="{ 'card__image--gray': isChest }">
     <div class="card__name">
-      <p class="card__name__text">{{ name }}</p>
+      <p class="card__name__text">{{ id }}</p>
       <div v-if="isChest" class="card__isChested"></div>
       <div v-if="!isChest" class="card__chested"></div>
     </div>
     <div>
-      <img class="card__image" :src="imageMontada" :alt="name" />
+      <img class="card__image" :src="imageMontada" :alt="id" />
     </div>
   </div>
 </template>
@@ -14,7 +14,6 @@
 <script>
 export default {
   props: {
-    name: String,
     id: String,
   },
   data() {
