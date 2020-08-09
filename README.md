@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="hextech-chest-champions" title="#hextech-chest-champions" src="./src/assets/img/chest.png" />
+    <img alt="chested-champions" title="#chested-champions" src="./src/assets/img/chest.png" />
 </h1>
 
 <h4 align="center"> 
@@ -7,22 +7,22 @@
 </h4>
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/igortuag/hextech-chest-champions?color=%2304D361">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/igortuag/chested-champions?color=%2304D361">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/igortuag/hextech-chest-champions">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/igortuag/chested-champions">
 
   <a href="https://www.linkedin.com/in/igortuag/">
     <img alt="Made by leon-carvalho" src="https://img.shields.io/badge/made%20by-Igort--Tuag-%2304D361">
   </a>
 	
   
-  <a href="https://github.com/igortuag/hextech-chest-champions/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/igortuag/hextech-chest-champions">
+  <a href="https://github.com/igortuag/chested-champions/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/igortuag/chested-champions">
   </a>
 
   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
-   <a href="https://github.com/igortuag/hextech-chest-champions/stargazers">
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/igortuag/hextech-chest-champions?style=social">
+   <a href="https://github.com/igortuag/chested-champions/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/igortuag/chested-champions?style=social">
   </a>
 </p>
 
